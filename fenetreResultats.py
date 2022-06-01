@@ -230,7 +230,7 @@ def createResultWindow(results):
         if "BUTTON" in event :
             #Appui sur un bouton
             #Affichage de cet appui
-            pressSelectedButton(event, _VARS['window'])
+            pressSelectedButton(event)
             #Changement de la courbe
             if "TOTALE" in event :
                 dataXY = updateChart(-1, False)
